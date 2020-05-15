@@ -13,28 +13,35 @@ class NavBar extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            showMenu: false
+            showMenu: false,
+            displayMenu: "-600px",
+            hamburgerShow: "0px",
+            crossShow: "translateX(-600px)"
         }
         this.showMenu = this.showMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
     }
-    showMenu(event) {
-        event.preventDefault();
-        this.setState({showMenu: true}, () => {
-            document.addEventListener("click", this.closeMenu);
-        });
+    showMenu = () => {
+        this.setState({
+            displayMenu: "88px",
+            crossShow: "translateX(0)",
+            hamburgerShow: "-600px"
+        })
     }
-    closeMenu(event){
-        if(!this.dropdownMenu.contains(event.target)){
-            this.setState({ showMenu: false},  () => {
-                document.removeEventListener("click", this.closeMenu);
-            });
-        }
+    closeMenu = () => {
+        this.setState({
+            displayMenu: "-600px",
+            hamburgerShow: "0px",
+            crossShow: "translateX(-600px)"
+        })
+    }
+    handleClickOutside = e => {
+        
     }
     render(){
         return(
             <div>
-                <MenuContainer>
+                <MenuContainer onClick = {this.handleClickOutside} style = {{position: "fixed", zIndex: "1000000000000000000"}}>
                     <ContentContainer>
                         <NavImgContainer>
                             <Link to = "/"><NavImg src = {logo} /></Link>
@@ -45,32 +52,21 @@ class NavBar extends React.Component{
                             <Link to = "/core-topics/3d-design"><li> <img src = {BadgeGreen} alt = "3D Design"/></li></Link>
                             <Link to = "/core-topics/animation"><li> <img src = {BadgeOrange} alt = "Animation"     /></li></Link>
                         </MenuList>
-                        <Hamburger onClick = {this.showMenu}>
+                        <Hamburger onClick = {this.showMenu} style = {{marginLeft: this.state.hamburgerShow}}>
                             <div className = "bar1"></div>
                             <div className = "bar2"></div>
                             <div className = "bar3"></div>
                         </Hamburger>
-                        { 
-                            this.state.showMenu 
-                            ? (
-                                <div
-                                    className = "theMenu"
-                                    ref = {(element) => {
-                                        this.dropdownMenu = element;
-                                    }}
-                                >
-                                <MenuListText>
-                                    <Link to = "/core-topics/coding"><li className = "listElementText"> Coding </li></Link>
-                                    <Link to = "/core-topics/2d-design"><li className = "listElementText"> 2D Design </li></Link>
-                                    <Link to = "/core-topics/3d-design"><li className = "listElementText"> 3D Design </li></Link>
-                                    <Link to = "/core-topics/animation"><li className = "listElementText"> Animation </li></Link>
-                                </MenuListText>
-                                </div>
-                            ) 
-                            : ( 
-                                null 
-                            )
-                        }
+                        <Cross onClick = {this.closeMenu} style = {{transform: this.state.crossShow}}>
+                            <h1> X </h1>
+                        </Cross>
+                        <MenuListText style = {{marginTop: this.state.displayMenu}}>
+                            <Link onClick = {this.closeMenu} to = "/core-topics/coding"><li className = "listElementText"> Coding </li></Link>
+                            <Link onClick = {this.closeMenu} to = "/core-topics/2d-design"><li className = "listElementText"> 2D Design </li></Link>
+                            <Link onClick = {this.closeMenu} to = "/core-topics/3d-design"><li className = "listElementText"> 3D Design </li></Link>
+                            <Link onClick = {this.closeMenu} to = "/core-topics/animation"><li className = "listElementText"> Animation </li></Link>
+                        </MenuListText>
+                        
                     </ContentContainer>
                 </MenuContainer>
             </div>
@@ -133,6 +129,7 @@ const MenuList = styled.ul`
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    transition: 1s all;
     a{
         display: flex;
         justify-content: center;
@@ -158,6 +155,7 @@ const MenuList = styled.ul`
 const MenuListText = styled.ul`
     display: none;
     padding-left: 0;
+    transition: 1s all;
     a{
         color: white;
         text-decoration: none;
@@ -183,12 +181,13 @@ const MenuListText = styled.ul`
         position: absolute;
         background: black;
         left: 0;
-        z-index:1000;
+        z-index: -10;
     }
 `
 const Hamburger = styled.div`
     display: none;
     cursor: pointer;
+    transition: .8s all;
     @media only screen and (max-width: 700px){
         display: block;
     }
@@ -197,10 +196,11 @@ const Hamburger = styled.div`
     left: 4%;
     transform: translateY(-50%);
     .bar1, .bar2, .bar3{
-        width: 28px;
-        height: 3px;
+        width: 34px;
+        height: 4px;
         background-color: white;
-        margin: 6px 0;
+        margin: 8px 0;
+        -webkit-transition: 0.4s;
         transition: 0.4s;
     }
     .change .bar1{
@@ -213,6 +213,21 @@ const Hamburger = styled.div`
     .change .bar3{
         -webkit-transform: rotate(45deg) translate(-8px -8px);
         transform: rotate(45deg) translate(-8px, -8px);
+    }
+`
+const Cross = styled.div`
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    transition: .8s all;
+    transform: translateY(-50%);
+    h1{
+        font-size: 3.4em;
+    }
+    @media only screen and (max-width: 700px){
+        display: block;
     }
 `
 export default NavBar;
