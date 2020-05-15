@@ -1,0 +1,177 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+  }
+  .App{
+    background: #e0e0e0;
+    font-family: "Dosis", sans-serif;
+  }
+  .content{
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.75em;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+  }
+  p, a, span {
+    font-weight: 450;
+    color: #595858;
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
+  }
+  h1,h2{
+    font-weight: 800;
+    font-family: "Dosis", "sans-serif";
+    font-size: 8em;
+  }
+  h3,h4{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+  }
+  h5,h6{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4em;
+  }
+  .getStartedMobile{
+    display: none;
+    color: darkgrey;
+    padding-top: 100px;
+  }
+  @media only screen and (max-width: 770px){
+    .content{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .getStartedMobile{
+      display: block;
+    }
+  }
+  .theHeader, .sectionFirst, .sectionSecond{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .theHeader button{
+    width: 100%;
+    background: purple;
+    border: 0;
+    padding: 40px;
+    color: white;
+    border-radius: 20px;
+    margin: 50px 0;
+    font-size: 1.6em;
+  }
+  .sectionSecond{
+    background: orange;
+    height: 700px;
+    padding: 60px 24px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: white;
+    position: relative;
+  }
+
+  .dialog-enter {
+    opacity: 0.01;
+    transform: scale(1.1);
+  }
+  
+  .dialog-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 300ms;
+  }
+  
+  .dialog-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .dialog-exit-active {
+    opacity: 0.01;
+    transform: scale(1.1);
+    transition: all 300ms;
+  }
+
+  @keyframes changer{
+    from {
+      font-size: "2em"
+    }
+    to {
+      font-size: "10em"
+    }
+  }
+  @keyframes slideIn{
+    0%{
+        margin-left: -1200px;
+    }
+    88%{
+        margin-left: 20px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+  @keyframes slideOut{
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(0);
+    }
+  }
+
+
+
+  @keyframes dissapear {
+    0%{
+      transform: translateX(0);
+      height: 100%;
+    }
+    25%{
+      transform: translateX(-25%);
+      height: 100%;
+    }
+    50%{
+      transform: translateX(-50%);
+      height: 100%;
+    }
+    98%{
+      transform: translateX(-100%);
+      height: 100%;
+    }
+    100%{
+      transform: translateX(-100%);
+      height: 0;
+    }
+  }
+  @keyframes appear {
+    0%{
+      transform: translateX(-100%);
+      height: 0;
+    }
+    1%{
+      height: 100vh;
+    }
+    25%{
+      transform: translateX(-75%);
+    }
+    50%{
+      transform: translateX(-50%);
+    }
+    75%{
+      transform: translateX(-25%);
+    }
+    100%{
+      transform: translateX(0);
+      height: 100vh;
+    }
+  }

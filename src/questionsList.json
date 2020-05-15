@@ -1,0 +1,36 @@
+[
+    {
+        "question": "How tall is your fridge?",
+        "options": [
+            {
+                "option": "6 feet"
+            },
+            {
+                "option": "12 feet"
+            },
+            {
+                "option": "3 feet"
+            },
+            {
+                "option": "1 foot"
+            }
+        ]
+    },
+    {
+        "question": "How wide is your door?",
+        "options": [
+            {
+                "option": "2 feet"
+            },
+            {
+                "option": "4 feet"
+            },
+            {
+                "option": "10 feet"
+            },
+            {
+                "option": "14 feet"
+            }
+        ]
+    }
+]

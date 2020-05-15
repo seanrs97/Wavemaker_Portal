@@ -1,0 +1,1378 @@
+
+[
+        {
+            "id": "coding",
+            "name": "Coding",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Learn how to build your very own website!",
+            "image": "/images/headerImages/CodingBanner1.png",
+            "imageTab": "/images/headerImages/CodingBanner1.png",
+            "imageMob": "/images/headerImages/CodingBanner1.png",
+            "buttons": [
+                {
+                    "id": "coding-introduction",
+                    "image": "/images/buttonImages/intro.svg",
+                    "text": "An Introduction to what code is, what it can be used for and why it's an important skill for the future"
+                },
+                {
+                    "id": "robotics",
+                    "image": "/images/buttonImages/robotics.svg",
+                    "text": "Dive into the world of robotics and learn the science behind what makes some of the worlds most powerful robots"
+                },
+                {
+                    "id": "artificial-intelligence",
+                    "image": "/images/buttonImages/ai.svg",
+                    "text": "Dive into the world of robotics and learn the science behind what makes some of the worlds most powerful robots"
+                },
+                {
+                    "id": "web-development",
+                    "image": "/images/buttonImages/web.svg",
+                    "text": "You've used them hundreds of time, now it's time to learn how websites are built!"
+                },
+                {
+                    "id": "game-development",
+                    "image": "/images/buttonImages/games.svg",
+                    "text": "Ever played a video game and wondered exactly what is going on behind the screen? well now you can!"
+                },
+                {
+                    "id": "app-development",
+                    "image": "/images/buttonImages/apps.svg",
+                    "text": "Facebook, Twitter, Instagram and Uber! if you've used these, then you've already got an idea of what app dev is!"
+                }
+            ]
+        },
+        {
+            "id": "2d-design",
+            "name": "2D Design",
+            "headerColour": "linear-gradient(90deg,rgb(251,24,66),rgb(208,0,86))",
+            "description": "Artificial intelligence is shaping the future! don't fall behind!",
+            "image": "/images/headerImages/Banner6.png",
+            "imageTab": "/images/headerImages/Banner6.png",
+            "imageMob": "/images/headerImages/Banner6.png",
+            "buttons": [
+                {
+                    "id": "2d-introduction",
+                    "image": "/images/buttonImages/2DIntro.svg",
+                    "text": "The perfect place to start for people with little to no knowledge on 2D design"
+                },
+                {
+                    "id": "2d-animation",
+                    "image": "/images/buttonImages/2DAnimation.svg",
+                    "text": "What better place to start than animation? one of the most fun topics of 2D and something that everyone can enjoy"
+                },
+                {
+                    "id": "2d-software",
+                    "image": "/images/buttonImages/2DSoftware.svg",
+                    "text": "Ready to start your own designs? let's get familiar with the software first!"
+                },
+                {
+                    "id": "2d-principles",
+                    "image": "/images/buttonImages/2DPrinciples.svg",
+                    "text": "Think you understand 2D Design? Think again! learn about the principles here!"
+                }
+            ]
+            
+        },
+        {
+            "id": "3d-design",
+            "name": "3D Design",
+            "headerColour": "linear-gradient(90deg,rgb(87,178,142),rgb(60,157,82))",
+            "description": "Ever wanted to program your own robot? you can learn how to, here!",
+            "image": "/images/headerImages/Banner7.png",
+            "imageTab": "/images/headerImages/Banner7.png",
+            "imageMob": "/images/headerImages/Banner7.png",
+            "buttons": [
+                {
+                    "id": "3d-introduction",
+                    "image": "/images/buttonImages/3DIntro.svg",
+                    "text": "What is 3D design? what can we do with it? find out here with our great introduction!"
+                },
+                {
+                    "id": "3d-animation",
+                    "image": "/images/buttonImages/3DAnimation.svg",
+                    "text": "Learn about one of the fastest growing industies in computing, the magic of 3D animation!"
+                },
+                {
+                    "id": "3d-modelling",
+                    "image": "/images/buttonImages/3DModelling.svg",
+                    "text": "A subject that is still new but has come so far in recent years, how useful will this be in the future?"
+                },
+                {
+                    "id": "3d-software",
+                    "image": "/images/buttonImages/3DSoftware.svg",
+                    "text": "Ready to start building your own designs? you'll need to get familiar with the software first!"
+                },
+                {
+                    "id": "3d-careers",
+                    "image": "/images/buttonImages/3DCareers.svg",
+                    "text": "Still interested in 3D? why not see what careers you could pursue in the future!"
+                }
+            ],
+            "questions": [
+                {
+                    "question": "What's the best software?",
+                    "optionA": "blender",
+                    "optionB": "3ds maya",
+                    "optionC": "houdini",
+                    "optionD": "photoshop",
+                    "answer": "3ds maya"
+                },
+                {
+                    "question": "Which of these is not 3D modelling software",
+                    "optionA": "modo",
+                    "optionB": "buildamodel",
+                    "optionC": "3ds max",
+                    "optionD": "cinema 4d",
+                    "answer": "buildamodel"
+                },
+                {
+                    "question": "What is typically the final process of 3d modelling?",
+                    "optionA": "designing",
+                    "optionB": "morphing",
+                    "optionC": "rendering",
+                    "optionD": "coloring",
+                    "answer": "rendering"
+                },
+                {
+                    "question": "which subject is closely related to 3d modelling?",
+                    "optionA": "animation",
+                    "optionB": "machine learning",
+                    "optionC": "robotics",
+                    "optionD": "web design",
+                    "answer": "animation"
+                }
+            ]
+        },
+        {
+            "id": "animation",
+            "name": "Animation",
+            "headerColour": "linear-gradient(90deg,rgb(255,211,43),rgb(243,146,0))",
+            "description": "Facebook, Twitter, Instagram and Uber and just a few of the 1000's of Apps on the market today, there's a reason they're so popular, find out here",
+            "image": "/images/headerImages/Banner4.png",
+            "imageTab": "/images/headerImages/Banner4.png",
+            "imageMob": "/images/headerImages/Banner4.png",
+            "buttons": [
+                {
+                    "id": "animation-introduction",
+                    "image": "/images/buttonImages/animationIntro.svg",
+                    "text": "There's a whole world of animation, we think this is a good place to start"
+                },
+                {
+                    "id": "animation-web",
+                    "image": "/images/buttonImages/animationWeb.svg",
+                    "text": "There's a whole world of animation, we think this is a good place to start"
+                },
+                {
+                    "id": "animation-manipulation",
+                    "image": "/images/buttonImages/animationManipulation.svg",
+                    "text": "Ready to Manipulate some animation? Lets start here!"
+                }
+            ]
+        },
+        {
+            "comment": "*******THIS IS WHERE SUB CODING STARTS**********",
+            "id": "coding-introduction",
+            "name": "Introduction to Coding",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Coding!",
+            "image": "/images/headerImages/CodingBanner1.png",
+            "imageTab": "/images/headerImages/CodingBanner1.png",
+            "imageMob": "/images/headerImages/CodingBanner1.png",
+            "questions": [
+                {
+                    "question": "Which of these is a real programming language?",
+                    "optionA": "mastifo",
+                    "optionB": "solventbug",
+                    "optionC": "lolcode",
+                    "optionD": "englishlanguage",
+                    "answer": "lolcode"
+                },
+                {
+                    "question": "What of these is the staple of web development",
+                    "optionA": "java",
+                    "optionB": "html",
+                    "optionC": "python",
+                    "optionD": "c",
+                    "answer": "html"
+                }
+            ],
+            "content": [
+                {
+                    "id": "intro-text",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "text": "Coding is all around us! It’s the way we interact with technology, and the results are everywhere to see!"
+                },
+                {
+                    "id": "code-electricity",
+                    "image": "/images/mainContentImages/codingImage2.png",
+                    "text": "Nowadays, almost everything that is powered by electricity uses code."
+                },
+                {
+                    "id": "code-items",
+                    "image": "/images/mainContentImages/codingImage3.png",
+                    "text": "Personal items like: Smart Phones Smart Watches Smart Speakers"
+                },
+                {
+                    "id": "code-home-appliances",
+                    "image": "/images/mainContentImages/codingImage4.png",
+                    "text": "Things around the home like: Microwaves Fridges Washing machines"
+                },
+                {
+                    "id": "code-automotive",
+                    "image": "/images/mainContentImages/codingImage5.png",
+                    "text": "Even big things like: Cars Trains Planes ...and rockets!"
+                },
+                {
+                    "id": "code-tv",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "When you watch your favourite box set on your TV streaming service,"
+                },
+                {
+                    "id": "code-tweet",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Send a tweet, email or message"
+                },
+                {
+                    "id": "code-console",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "When you play on your latest games console."
+                },
+                {
+                    "id": "code-microwave",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Or even warm up your dinner in the microwave."
+                },
+                {
+                    "id": "code-lines",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "It happens because of lines of code."
+                },
+                {
+                    "id": "code-rely",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "They all rely on code to make them work."
+                } 
+            ],
+            "bannerOne": [
+                {
+                    "id": "what-is-code-banner",
+                    "image": "/images/headerImages/codingBanner1.png",
+                    "text": "So what exactly is Code?"
+                }
+            ],
+            "content2": [
+                {
+                    "id": "code-precice",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Code is a precise set of instructions explaining exactly what you want the computer to do at any given moment. "
+                },
+                {
+                    "id": "code-react",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Computers need to know exactly how to react to things, whether clicking a button or tapping the screen."
+                },
+                {
+                    "id": "code-direction",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "It’s like giving directions to someone on how to get somewhere."
+                },
+                {
+                    "id": "code-consider",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "You don’t only need to give the directions, you also have to give solutions for other elements that need to be considered."
+                },
+                {
+                    "id": "code-example",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "For example, what if there is a traffic jam? Or what if your car breaks down?"
+                },
+                {
+                    "id": "code-circumstance",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "You need to tell the computer what to do in these circumstances and how to behave."
+                }
+
+            ],
+            "bannerTwo": [
+                {
+                    "id": "types-of-languages",
+                    "image": "/images/headerImages/codingBanner1.png",
+                    "text": "What kind of languages are there?"
+                }
+            ],
+            "content3": [
+                {
+                    "id": "java",
+                    "mainHeader": "Java",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Very High",
+                    "text2": "Moderate to Difficult",
+                    "text3": [
+                        {
+                            "text": "Apps for Mac, Windows and Linux"
+                        },
+                        {
+                            "text": "Web Applications"
+                        },
+                        {
+                            "text": "Mobile"
+                        },
+                        {
+                            "text": "Embedded Systems"
+                        }
+                    ]
+                },
+                {
+                    "id": "python",
+                    "mainHeader": "Python",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Very High",
+                    "text2": "Easy to Moderate",
+                    "text3": [
+                        {
+                            "text": "Web Applications"
+                        },
+                        {
+                            "text": "Artificial Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "id": "c",
+                    "mainHeader": "C / C# / C++",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Medium to High",
+                    "text2": "Moderate to Difficult",
+                    "text3": [
+                        {
+                            "text": "Windows Applications"
+                        },
+                        {
+                            "text": "Web Services"
+                        },
+                        {
+                            "text": "Hardware Drivers"
+                        },
+                        {
+                            "text": "Proprietary Services"
+                        }
+                    ]
+                },
+                {
+                    "id": "javascript",
+                    "mainHeader": "JavaScript",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Very High",
+                    "text2": "Moderate",
+                    "text3": [
+                        {
+                            "text": "Local Applications"
+                        },
+                        {
+                            "text": "Web Applications"
+                        }
+                    ]
+                },
+                {
+                    "id": "visual-basic-net",
+                    "mainHeader": "Visual Basic .Net",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Low",
+                    "text2": "Moderate",
+                    "text3": [
+                        {
+                            "text": "Web Applications"
+                        },
+                        {
+                            "text": "Windows Applications"
+                        }
+                    ]
+                },
+                {
+                    "id": "sql",
+                    "mainHeader": "SQL",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Very High",
+                    "text2": "Easy to Moderate",
+                    "text3": [
+                        {
+                            "text": "Database Queries"
+                        }
+                    ]
+                },
+                {
+                    "id": "php",
+                    "mainHeader": "PHP",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "High",
+                    "text2": "Easy",
+                    "text3": [
+                        {
+                            "text": "Web Applications"
+                        }
+                    ]
+                },
+                {
+                    "id": "objective-c",
+                    "mainHeader": "Objective C",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "High",
+                    "text2": "Difficult",
+                    "text3": [
+                        {
+                            "text": "Mobile Applications"
+                        },
+                        {
+                            "text": "Apple IOS devices: iPhone, iPad"
+                        }
+                    ]
+                },
+                {
+                    "id": "swift",
+                    "mainHeader": "Swift",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "Medium",
+                    "text2": "Moderate to Difficult",
+                    "text3": [
+                        {
+                            "text": "Apple Mobile and Desktop Apps"
+                        },
+                        {
+                            "text": "Macbook"
+                        },
+                        {
+                            "text": "iPhone"
+                        },
+                        {
+                            "text": "iPad"
+                        }
+                    ]
+                },
+                {
+                    "id": "ruby",
+                    "mainHeader": "Ruby",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "High",
+                    "text2": "Easy to Moderate",
+                    "text3": [
+                        {
+                            "text": "Web Applications"
+                        },
+                        {
+                            "text": "Scripting"
+                        }
+                    ]
+                },
+                {
+                    "id": "perl",
+                    "mainHeader": "Perl",
+                    "image": "/images/mainContentImages/codingImage1.png",
+                    "headingText1": "Popularity: ",
+                    "headingText2": "Ease of Use: ",
+                    "headingText3": "Uses: ",
+                    "text1": "High",
+                    "text2": "Easy to Moderate",
+                    "text3": [
+                        {
+                            "text": "Local Applications"
+                        },
+                        {
+                            "text": "Web Applications"
+                        }
+                    ]
+                }
+            ],
+            "quiz": [
+                {
+                    "id": "1",
+                    "question": "Which of these programming languages is real?",
+                    "questionOrder": 4,
+                    "answers": [
+                        {
+                            "answer": "HyperCode",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "Trail",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "Baboon",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "Perl",
+                            "correct": true,
+                            "points": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "question": "What is typically a coding beginners first program",
+                    "questionOrder": 3,
+                    "answers": [
+                        {
+                            "answer": "Hello Earth",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "Hello World",
+                            "correct": true,
+                            "points": 1
+                        },
+                        {
+                            "answer": "Hello Space",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "Hello Universe",
+                            "correct": false,
+                            "points": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "question": "What would you use to iterate through an array of values",
+                    "questionOrder": 2,
+                    "answers": [
+                        {
+                            "answer": "Function",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "For Loop",
+                            "correct": true,
+                            "points": 1
+                        },
+                        {
+                            "answer": "If Statement",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "Switch",
+                            "correct": false,
+                            "points": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "question": "Which of these languages is commonly used for developing websites?",
+                    "questionOrder": 1,
+                    "answers": [
+                        {
+                            "answer": "Java",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "C++",
+                            "correct": false,
+                            "points": 0
+                        },
+                        {
+                            "answer": "JavaScript",
+                            "correct": true,
+                            "points": 1
+                        },
+                        {
+                            "answer": "Visual Basic",
+                            "correct": false,
+                            "points": 0
+                        }
+                    ]
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "coding",
+                    "text": "Return to Coding",
+                    "image": "/images/headerImages/codingBanner1.svg"
+                }
+            ]
+
+        },
+        {
+            "id": "robotics",
+            "name": "Robotics",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Robotics!",
+            "image": "/images/headerImages/CodingBanner3.png",
+            "imageTab": "/images/headerImages/CodingBanner3.png",
+            "imageMob": "/images/headerImages/CodingBanner3.png",
+            "buttons": [
+                {
+                    "id": "industrial-robotics",
+                    "image": "/images/buttonImages/robotics1.svg",
+                    "text": "One of robotics primary uses, learn how large industries utilise robotics"
+                },
+                {
+                    "id": "electricity-robotics",
+                    "image": "/images/buttonImages/robotics2.svg",
+                    "text": "Learn how robotics and electricity are connected!"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "coding",
+                    "text": "Return to the Coding",
+                    "image": "/images/headerImages/codingBanner3.svg"
+                }
+            ]
+        },
+        {
+            "id": "artificial-intelligence",
+            "name": "Artificial Intelligence",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to AI!",
+            "image": "/images/headerImages/CodingBanner4.png",
+            "imageTab": "/images/headerImages/CodingBanner4.png",
+            "imageMob": "/images/headerImages/CodingBanner4.png",
+            "buttons": [
+                {
+                    "id": "speech-recognition",
+                    "image": "/images/buttonImages/ai1.svg",
+                    "text": "One of the most widely used aspects of AI, learn how speech recogntion works!"
+                },
+                {
+                    "id": "problem-solving",
+                    "image": "/images/buttonImages/ai2.svg",
+                    "text": "How do computers solve problems? Find out here"
+                },
+                {
+                    "id": "ai-programming",
+                    "image": "/images/buttonImages/ai3.svg",
+                    "text": "Learn how to program your own AI program in this section!"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "coding",
+                    "text": "Return to the Coding",
+                    "image": "/images/headerImages/codingBanner4.svg"
+                }
+            ]
+        },
+        {
+            "id": "web-development",
+            "name": "Web Development",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Web!",
+            "image": "/images/headerImages/CodingBanner5.png",
+            "imageTab": "/images/headerImages/CodingBanner5.png",
+            "imageMob": "/images/headerImages/CodingBanner5.png",
+            "buttons": [
+                {
+                    "id": "cms",
+                    "image": "/images/buttonImages/web1.svg",
+                    "text": "Want to build a website, but not sure how to code? This is the right topic for you!"
+                },
+                {
+                    "id": "vanilla",
+                    "image": "/images/buttonImages/web2.svg",
+                    "text": "Learn the basics of Vanilla programming and code your first site with HTML5, CSS3 and JavaScript"
+                },
+                {
+                    "id": "web-builder",
+                    "image": "/images/buttonImages/web3.svg",
+                    "text": "For people who want a website but don't want to do any of the work!"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "coding",
+                    "text": "Return to the Coding",
+                    "image": "/images/headerImages/codingBanner5.svg"
+                }
+            ]
+
+        },
+        {
+            "id": "game-development",
+            "name": "Game Development",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Game Development!",
+            "image": "/images/headerImages/CodingBanner2.png",
+            "imageTab": "/images/headerImages/CodingBanner2.png",
+            "imageMob": "/images/headerImages/CodingBanner2.png",
+            "buttons": [
+                {
+                    "id": "scratch",
+                    "image": "/images/buttonImages/gameDev1.svg",
+                    "text": "Start from scratch! Literally! start learning problem solving skills to become a better programmer"
+                },
+                {
+                    "id": "ui-for-games",
+                    "image": "/images/buttonImages/gameDev2.svg",
+                    "text": "Nowadays, almost everything that is powered by electricity uses code."
+                },
+                {
+                    "id": "storyboarding",
+                    "image": "/images/buttonImages/gameDev3.svg",
+                    "text": "Learn how to build a great interface for your target audience!"
+                },
+                {
+                    "id": "programming-basics",
+                    "image": "/images/buttonImages/gameDev4.svg",
+                    "text": "Learn the basics of programming so you can build your very first game!"
+                },
+                {
+                    "id": "learning-java",
+                    "image": "/images/buttonImages/gameDev5.svg",
+                    "text": "Dive into your first programming language. Learn Java and start to develop your programming skills"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "coding",
+                    "text": "Return to Coding",
+                    "image": "/images/headerImages/codingBanner2.svg"
+                }
+            ]
+
+        },
+        {
+            "id": "app-development",
+            "name": "Introduction to App Development",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to App Development!",
+            "image": "/images/headerImages/CodingBanner6.png",
+            "imageTab": "/images/headerImages/CodingBanner6.png",
+            "imageMob": "/images/headerImages/CodingBanner6.png",
+            "buttons": [
+                {
+                    "id": "scratch-app",
+                    "image": "/images/buttonImages/gameDev1.svg",
+                    "text": "Start from scratch! Literally! start learning problem solving skills to become a better programmer"
+                },
+                {
+                    "id": "app-dev-fundamentals",
+                    "image": "/images/buttonImages/appDev2.svg",
+                    "text": "Learn the fundamentals of Application development along with it's purpose in the computing world"
+                },
+                {
+                    "id": "programming-in-ios",
+                    "image": "/images/buttonImages/appDev3.svg",
+                    "text": "Learn how to develop applications for IOS devices"
+                },
+                {
+                    "id": "programming-in-android",
+                    "image": "/images/buttonImages/appDev4.svg",
+                    "text": "Learn how to develop applications for android devices"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "coding",
+                    "text": "Return to Coding",
+                    "image": "/images/headerImages/codingBanner6.svg"
+                }
+            ]
+        },
+        {
+            "comment": "*******THIS IS WHERE SUB ROBOTICS STARTS**********",
+            "id": "industrial-robotics",
+            "name": "Industrial Robotics",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Industrial Robotics",
+            "image": "/images/headerImages/CodingBanner3.png",
+            "imageTab": "/images/headerImages/CodingBanner3.png",
+            "imageMob": "/images/headerImages/CodingBanner3.png",
+            "content": [
+                {
+                    "id": "industrial-robotics-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "industrial-robotics-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "industrial-robotics-3",
+                    "image": "/images/mainContentImages/robotics3.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "industrial-robotics3",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do.s"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "robotics",
+                    "text": "Return to Robotics",
+                    "image": "/images/headerImages/codingBanner3.svg"
+                }
+            ]
+        },
+        {
+            "id": "electricity-robotics",
+            "name": "Electricity in Robotics",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Electricity in Robotics",
+            "image": "/images/headerImages/CodingBanner3.png",
+            "imageTab": "/images/headerImages/CodingBanner3.png",
+            "imageMob": "/images/headerImages/CodingBanner3.png",
+            "content": [
+                {
+                    "id": "electricity-robotics-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "electricity-robotics-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "electricity-robotics-3",
+                    "image": "/images/mainContentImages/robotics3.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "electricity-robotics3",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do.s"
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "robotics",
+                    "text": "Return to Robotics",
+                    "image": "/images/headerImages/codingBanner3.svg"
+                }
+            ]
+        },
+        {
+            "comment": "*******THIS IS WHERE SUB AI STARTS**********",
+            "id": "speech-recognition",
+            "name": "Speech Recognition",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Speech Recognition",
+            "image": "/images/headerImages/CodingBanner4.png",
+            "imageTab": "/images/headerImages/CodingBanner4.png",
+            "imageMob": "/images/headerImages/CodingBanner4.png",
+            "content": [
+                {
+                    "id": "industrial-robotics-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "industrial-robotics-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "artificial-intelligence",
+                    "text": "Return to AI",
+                    "image": "/images/headerImages/codingBanner4.svg"
+                }
+            ]
+        },
+        {
+            "id": "problem-solving",
+            "name": "Problem Solving",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Problem Solving",
+            "image": "/images/headerImages/CodingBanner4.png",
+            "imageTab": "/images/headerImages/CodingBanner4.png",
+            "imageMob": "/images/headerImages/CodingBanner4.png",
+            "content": [
+                {
+                    "id": "problem-solving-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "problem-solving-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "problem-solving-3",
+                    "text": "Return to AI",
+                    "image": "/images/headerImages/codingBanner4.svg"
+                }
+            ]
+        },
+        {
+            "id": "ai-programming",
+            "name": "AI Programming",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Problem Solving",
+            "image": "/images/headerImages/CodingBanner4.png",
+            "imageTab": "/images/headerImages/CodingBanner4.png",
+            "imageMob": "/images/headerImages/CodingBanner4.png",
+            "content": [
+                {
+                    "id": "ai-programming-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "ai-programming-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "ai-programming-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "artificial-intelligence",
+                    "text": "Return to AI",
+                    "image": "/images/headerImages/codingBanner4.svg"
+                }
+            ]
+        },
+        {
+            "comment":"*******THIS IS WHERE SUB WEB STARTS**********",
+            "id": "cms",
+            "name": "CMS",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Content Management Systems",
+            "image": "/images/headerImages/CodingBanner5.png",
+            "imageTab": "/images/headerImages/CodingBanner5.png",
+            "imageMob": "/images/headerImages/CodingBanner5.png",
+            "content": [
+                {
+                    "id": "cms-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "cms-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "cms-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "web-development",
+                    "text": "Return to Web",
+                    "image": "/images/headerImages/codingBanner5.svg"
+                }
+            ]
+        },
+        {
+            "id": "vanilla",
+            "name": "Vanilla Programming",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Vanilla Programming",
+            "image": "/images/headerImages/CodingBanner5.png",
+            "imageTab": "/images/headerImages/CodingBanner5.png",
+            "imageMob": "/images/headerImages/CodingBanner5.png",
+            "content": [
+                {
+                    "id": "vanilla-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "vanilla-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "vanilla-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "web-development",
+                    "text": "Return to Web",
+                    "image": "/images/headerImages/codingBanner5.svg"
+                }
+            ]
+        },
+        {
+            "id": "web-builder",
+            "name": "Web Builder",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Web Builders",
+            "image": "/images/headerImages/CodingBanner5.png",
+            "imageTab": "/images/headerImages/CodingBanner5.png",
+            "imageMob": "/images/headerImages/CodingBanner5.png",
+            "content": [
+                {
+                    "id": "web-builder-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "web-builder-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "web-builder-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "web-development",
+                    "text": "Return to Web",
+                    "image": "/images/headerImages/codingBanner5.svg"
+                }
+            ]
+        },
+        {
+            "comment": "*******THIS IS WHERE SUB GAME DEV STARTS**********",
+            "id": "scratch",
+            "name": "Scratch",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Scratch",
+            "image": "/images/headerImages/CodingBanner2.png",
+            "imageTab": "/images/headerImages/CodingBanner2.png",
+            "imageMob": "/images/headerImages/CodingBanner2.png",
+            "content": [
+                {
+                    "id": "scratch-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "scratch-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "scratch-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "game-development",
+                    "text": "Return to Game Dev",
+                    "image": "/images/headerImages/codingBanner2.svg"
+                }
+            ]
+        },
+        {
+            "id": "ui-for-games",
+            "name": "UI for Games",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to UI for Games",
+            "image": "/images/headerImages/CodingBanner2.png",
+            "imageTab": "/images/headerImages/CodingBanner2.png",
+            "imageMob": "/images/headerImages/CodingBanner2.png",
+            "content": [
+                {
+                    "id": "game-dev-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "game-dev-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "game-dev-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "game-development",
+                    "text": "Return to Game Dev",
+                    "image": "/images/headerImages/codingBanner2.svg"
+                }
+            ]
+        },
+        {
+            "id": "storyboarding",
+            "name": "Storyboarding",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Storyboarding",
+            "image": "/images/headerImages/CodingBanner2.png",
+            "imageTab": "/images/headerImages/CodingBanner2.png",
+            "imageMob": "/images/headerImages/CodingBanner2.png",
+            "content": [
+                {
+                    "id": "web-builder-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "web-builder-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "web-builder-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "game-development",
+                    "text": "Return to Game Dev",
+                    "image": "/images/headerImages/codingBanner2.svg"
+                }
+            ]
+        },
+        {
+            "id": "programming-basics",
+            "name": "Programming Basics",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Programming Basics",
+            "image": "/images/headerImages/CodingBanner2.png",
+            "imageTab": "/images/headerImages/CodingBanner2.png",
+            "imageMob": "/images/headerImages/CodingBanner2.png",
+            "content": [
+                {
+                    "id": "programming-basics-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "programming-basics-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "programming-basics-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "game-development",
+                    "text": "Return to Game Dev",
+                    "image": "/images/headerImages/codingBanner2.svg"
+                }
+            ]
+        },
+        {
+            "id": "learning-java",
+            "name": "Java",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Java",
+            "image": "/images/headerImages/CodingBanner2.png",
+            "imageTab": "/images/headerImages/CodingBanner2.png",
+            "imageMob": "/images/headerImages/CodingBanner2.png",
+            "content": [
+                {
+                    "id": "java-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "java-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "java-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "game-development",
+                    "text": "Return to Game Dev",
+                    "image": "/images/headerImages/codingBanner2.svg"
+                }
+            ]
+        },
+        {
+            "comment":"*******THIS IS WHERE SUB APP DEV STARTS**********",
+            "id": "scratch-app",
+            "name": "Scratch",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Scratch",
+            "image": "/images/headerImages/CodingBanner6.png",
+            "imageTab": "/images/headerImages/CodingBanner6.png",
+            "imageMob": "/images/headerImages/CodingBanner6.png",
+            "content": [
+                {
+                    "id": "scratch-app-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "scratch-app-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "scratch-app-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "app-development",
+                    "text": "Return to App Dev",
+                    "image": "/images/headerImages/codingBanner6.svg"
+                }
+            ]
+        },
+        {
+            "id": "app-dev-fundamentals",
+            "name": "Java",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Java",
+            "image": "/images/headerImages/CodingBanner6.png",
+            "imageTab": "/images/headerImages/CodingBanner6.png",
+            "imageMob": "/images/headerImages/CodingBanner6.png",
+            "content": [
+                {
+                    "id": "app-dev-fundamentals-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "app-dev-fundamentals-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "app-dev-fundamentals-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "app-development",
+                    "text": "Return to App Dev",
+                    "image": "/images/headerImages/codingBanner6.svg"
+                }
+            ]
+        },
+        {
+            "id": "programming-in-ios",
+            "name": "Programming In IOS",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Programming for IOS Devices",
+            "image": "/images/headerImages/CodingBanner6.png",
+            "imageTab": "/images/headerImages/CodingBanner6.png",
+            "imageMob": "/images/headerImages/CodingBanner6.png",
+            "content": [
+                {
+                    "id": "programming-in-ios-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "programming-in-ios-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "programming-in-ios-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "app-development",
+                    "text": "Return to App Dev",
+                    "image": "/images/headerImages/codingBanner6.svg"
+                }
+            ]
+        },
+        {
+            "id": "programming-in-android",
+            "name": "Programming In Android",
+            "headerColour": "linear-gradient(90deg,rgb(42,181,227),rgb(11,146,191))",
+            "description": "Welcome to your Introduction to Programming for Android Devices",
+            "image": "/images/headerImages/CodingBanner6.png",
+            "imageTab": "/images/headerImages/CodingBanner6.png",
+            "imageMob": "/images/headerImages/CodingBanner6.png",
+            "content": [
+                {
+                    "id": "programming-in-android-1",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "programming-in-android-2",
+                    "image": "/images/mainContentImages/robotics2.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                },
+                {
+                    "id": "programmind-in-android-3",
+                    "image": "/images/mainContentImages/robotics1.svg",
+                    "text": "Occaecat ad veniam adipisicing quis. Et culpa culpa nulla exercitation. Proident qui anim reprehenderitdolore sint do fu Proident qui anim reprehenderit dolore sint do fu Proident qui anim reprehenderit dolore sint do fugiat aute in culpa ullamco sunt consectetur do."
+                }
+            ],
+            "navigation": [
+                {
+                    "id": "app-development",
+                    "text": "Return to App Dev",
+                    "image": "/images/headerImages/codingBanner6.svg"
+                }
+            ]
+        }
+    ]
+
